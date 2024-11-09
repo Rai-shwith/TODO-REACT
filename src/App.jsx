@@ -30,7 +30,7 @@ function App() {
           value={toDo}
           onChange={handleTodoChange}
           onKeyDown={handleAdd}
-          className="appearance-none  focus:ring-2 focus:ring-offset-2 outline-none"
+          className="appearance-none w-4/5 focus:ring-2 focus:ring-offset-2 outline-none"
         />
         <h3
           onClick={handleAdd}
